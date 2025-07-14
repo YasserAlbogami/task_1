@@ -6,6 +6,23 @@ It serves as a foundational task in your machine learning or data science journe
 
 ---
 
+## 📊 Dataset: `USA_housing_price.csv`
+
+The project uses a dataset named `USA_housing_price.csv`, which contains various real estate market features.  
+Each row represents a home listing in the U.S., including variables such as:
+
+- **Average Area Income**
+- **Average Area House Age**
+- **Average Area Number of Rooms**
+- **Average Area Number of Bedrooms**
+- **Area Population**
+- **Price** (Target variable)
+- **Address**
+
+This dataset is ideal for performing regression analysis, visualizing trends, and understanding housing price factors.
+
+---
+
 ## 📦 Included Libraries
 
 The project uses the following Python packages:
@@ -35,12 +52,12 @@ uv venv .venv
 uv pip install
 ```
 
-Or using plain `venv` and `pip`:
+Or using `venv` and `requirements.txt`:
 ```bash
 python -m venv .venv
 .\.venv\Scripts\activate       # On Windows
 # source .venv/bin/activate    # On Linux/macOS
-pip install -r requirements.txt  # (if you export it)
+pip install -r requirements.txt
 ```
 
 ### 3. Run the script
@@ -55,25 +72,6 @@ Or open the notebook in VS Code or Jupyter.
 
 ---
 
-## 📁 Project Structure
-
-```
-task_1/
-├── .venv/                  # Virtual environment (ignored in Git)
-├── pyproject.toml          # Dependency manager file
-├── main.py                 # Your main logic script (if any)
-├── README.md               # Project documentation
-└── .gitignore              # Ignoring virtual env & more
-```
-
----
-
 ## 🤝 Contributing
 
 Pull requests and ideas are welcome. For major changes, please open an issue first.
-
----
-
-## 📝 License
-
-This project is open-source and free to use under the [MIT License](https://opensource.org/licenses/MIT).
